@@ -1,0 +1,41 @@
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: blueviolet;
+}
+
+.flex-end{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.full-height{
+  height: 100vh;
+}
+
+.container{
+  width: 50%;
+}
+
+.input{
+  background-color: blueviolet;
+}
+
+.submit-btn{
+  margin: 20px 0px;
+}
+
+// utility classes
+
+.text-white{
+  color: black;
+}
+.m-y-20{
+  margin: 20px 0px;
+}
+.m-x-20{
+  margin: 0px 20px;
+}
