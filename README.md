@@ -4,11 +4,11 @@
 
 Ionic is a framework for building cross-platform mobile apps with HTML, CSS, and JavaScript. It's built on top of AngularJS and Apache Cordova. It provides tools and services for building Mobile UI with native look and feel.
 
-## What is Apache Cordova
+### What is Apache Cordova
 
 Apache Cordova is a platform for building native mobile applications using HTML, CSS and JavaScript.
 
-## What is AngularJS
+### What is AngularJS
 
 AngularJS is a JavaScript framework for building web applications and apps in JavaScript, html, and TypeScript, which is a superset of JavaScript.
 
