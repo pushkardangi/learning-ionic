@@ -1,13 +1,60 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>signup</ion-title>
+    <ion-title>Sign up</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">signup</ion-title>
-    </ion-toolbar>
-  </ion-header>
+
+  <div class="flex justify-center items-center">
+
+    <div class="item">
+      <h1><b>Sign up</b></h1>
+    </div>
+
+    <div class="item">
+      <ion-list>
+        <ion-item>
+          <ion-input labelPlacement="floating">
+            <div slot="label">Email</div>
+          </ion-input>
+        </ion-item>
+      </ion-list>
+    </div>
+
+    <div class="item">
+      <ion-list>
+        <ion-item>
+          <ion-input labelPlacement="floating">
+            <div slot="label">Set up Password</div>
+          </ion-input>
+        </ion-item>
+      </ion-list>
+    </div>
+
+    <div class="item">
+      <ion-radio-group value="custom-checked">
+        <span class="mr-4">
+          <ion-radio value="custom-checked" aria-label="Custom checkbox">Male</ion-radio>
+        </span>
+        <span class="mr-4">
+          <ion-radio value="custom" aria-label="Custom checkbox checked">Female</ion-radio>
+        </span>
+        <span class="mr-4">
+          <ion-radio value="custom" aria-label="Custom checkbox checked">Other</ion-radio>
+        </span>
+      </ion-radio-group>
+    </div>
+
+    <div class="item">
+      <ion-checkbox>Keep me logged in</ion-checkbox>
+    </div>
+
+    <div class="item">
+      <ion-button color="primary" expand="block">Submit</ion-button>
+    </div>
+
+
+  </div>
+
 </ion-content>
